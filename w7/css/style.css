@@ -1,10 +1,42 @@
 
 .attendance-hero{
     min-height: 70vh;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(90, 2, 2, 0.7)), url(/images/hero-new.png);
+    background-image: linear-gradient(rgba(83, 83, 83, 0.4), rgba(90, 2, 2, 0.7)), url(/images/hero-new.png);
     background-size: cover;
     background-position: center center;
     text-align:center;
     padding-block: 15vh 5vh;
 }
 
+.attendance-hero h2{
+    color:white;
+    font-size: 8.5rem;
+    text-shadow: 5px 5px 15px rgb(0,0,0 0.8);
+}
+
+.attendance-card{
+    background-image: linear-gradient(rgba(90, 2, 2, 0.4), rgba(0, 0, 0, 0.8)), url(/images/texture-new.png);
+    background-size: cover;
+    background-position: center bottom;
+    text-align:center;
+    padding-block: 3rem; 
+    margin-top: 1.5rem;
+    border-top: 2rem solid rgba(139, 0, 0, 0.144);
+}
+
+.attendance-card h2{
+    color:white;
+    font-size: 4rem;
+    text-shadow: 5px 5px 15px rgb(0,0,0 0.8);
+}
+
+.attendance-card p{
+    font-size: 2.5rem;
+    color: orange;
+}
+
+.attendance-card ul{
+    text-align:left;
+    color:orangered;
+    font-size: 2rem;
+}
